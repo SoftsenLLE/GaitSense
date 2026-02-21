@@ -76,4 +76,4 @@ Operator set is restricted to TFLM built-ins compatible with MCU deployment.
 
 This repository is intended for research reproducibility and embedded ML demonstration. It is not packaged as a general-purpose framework.
 
-For methodological rationale and experimental interpretation, refer to the paper.
+For methodological rationale and experimental interpretation, refer to the paper: https://ieeexplore.ieee.org/abstract/document/xxxxxxxx
