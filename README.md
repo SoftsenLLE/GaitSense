@@ -64,7 +64,7 @@ Both variants use Chirale_TensorFlowLite library (https://github.com/spaziochira
 
 ## Target Platform
 
-ESP32-S3 (should work in others too)
+ESP32-S3 (should work in other capable MCUs too)
 TensorFlow Lite Micro  
 INT8 quantized CNN  
 
