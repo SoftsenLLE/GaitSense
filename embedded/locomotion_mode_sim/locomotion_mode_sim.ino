@@ -1,4 +1,4 @@
-#include "cnn_model_W100_S20.h"
+#include "cnn_model_W100_S20_LOSO_sub4_k9-5_batch32.h"
 
 // SIMULATION DATA
 #include "test_sampled_scaled4.cc"

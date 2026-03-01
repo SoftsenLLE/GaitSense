@@ -1,4 +1,4 @@
-#include "cnn_model_W100_S20.h"
+#include "fin_cnn_model_W100_S20_k9-5_batch32.h"
 
 // ===== TensorFlow Lite Micro headers ===== 
 #include <Chirale_TensorFlowLite.h>
