@@ -1,7 +1,7 @@
 # A Wearable Hyperelastic Strain Sensing Suit for Locomotion Classification
 ## Locomotion Mode Classification on ESP32-S3
 
-This repository contains the complete training and embedded inference workflow for a locomotion mode / walking terrain classifier using microcontrollers and lower limb resistive strain sensors, built by researchers under HCRC Group at CSIR - CMERI, India 🇮🇳. 
+This repository contains the complete training and embedded-inference workflow for a locomotion mode/walking terrain classifier using microcontrollers and lower-limb resistive strain sensors. 
 
 The repository covers dataset construction, Leave-One-Subject-Out (LOSO) evaluation, CNN training, INT8 quantization, and real-time deployment using TensorFlow Lite Micro on ESP32-S3. It is structured to separate model development from embedded execution.
 
@@ -58,14 +58,16 @@ Replays recorded data for verification and latency measurement.
 
 Runs live inference using ADC inputs (`analogRead()`), applying the quantization scale and zero values from training.
 
-Both variants use Chirale_TensorFlowLite library (https://github.com/spaziochirale/Chirale_TensorFlowLite).
+Both variants use the Chirale_TensorFlowLite library (https://github.com/spaziochirale/Chirale_TensorFlowLite).
 
 ---
 
 ## Target Platform
 
 ESP32-S3 (should work in other capable MCUs too)
+
 TensorFlow Lite Micro  
+
 INT8 quantized CNN  
 
 Operator set is restricted to TFLM built-ins compatible with MCU deployment.
